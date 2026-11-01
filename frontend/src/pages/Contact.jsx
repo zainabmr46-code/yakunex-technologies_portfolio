@@ -332,10 +332,7 @@ function Contact() {
               Send Message
             </button>
 
-            <p className="text-sm text-slate-400">
-              Your enquiry will be stored in our database for review. Email
-              notifications are not enabled yet.
-            </p>
+            
           </form>
         </div>
       </section>

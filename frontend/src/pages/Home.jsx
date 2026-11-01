@@ -62,16 +62,17 @@ function Home() {
               </Link>
             </div>
           </div>
-
-          <div className="animate-zoom-in relative mx-auto flex h-56 w-56 shrink-0 items-center justify-center sm:h-72 sm:w-72 lg:h-80 lg:w-80">
+          <div className="animate-zoom-in relative mx-auto flex h-[min(70vw,42vh)] w-[min(70vw,42vh)] shrink-0 items-center justify-center">
             <div className="animate-glow absolute inset-0 rounded-full bg-gold/20 blur-3xl" />
             <div className="animate-orbit absolute inset-0 rounded-full border-2 border-dashed border-gold/50" />
-            <div className="relative h-[78%] w-[78%] rounded-full bg-gradient-to-br from-yellow-300 via-gold to-amber-700 p-1.5">
-              <img
-                src={picture}
-                alt="Yakunex Technologies (Pvt) Ltd logo"
-                className="h-full w-full rounded-full bg-black object-contain p-4"
-              />
+            <div className="relative h-[88%] w-[88%] rounded-full bg-gradient-to-br from-yellow-300 via-gold to-amber-700 p-1.5 sm:p-2">
+              <div className="flex h-full w-full items-center justify-center rounded-full bg-black">
+                <img
+                  src={picture}
+                  alt="Yakunex Technologies (Pvt) Ltd logo"
+                  className="h-[66%] w-[66%] -translate-y-1 object-contain"
+                />
+              </div>
             </div>
           </div>
         </div>
